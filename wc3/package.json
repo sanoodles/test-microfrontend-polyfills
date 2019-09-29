@@ -1,0 +1,28 @@
+{
+  "name": "wc3",
+  "version": "0.0.1",
+  "description": "Stencil Component Starter",
+  "main": "dist/index.js",
+  "module": "dist/esm/index.js",
+  "es2015": "dist/esm/index.js",
+  "es2017": "dist/esm/index.js",
+  "types": "dist/types/index.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "collection:main": "dist/collection/index.js",
+  "unpkg": "dist/wc3/wc3.js",
+  "files": [
+    "dist/",
+    "loader/"
+  ],
+  "scripts": {
+    "build": "stencil build --es5 --docs",
+    "start": "stencil build --es5 --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll",
+    "generate": "stencil generate"
+  },
+  "devDependencies": {
+    "@stencil/core": "0.15.1"
+  },
+  "license": "MIT"
+}

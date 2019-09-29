@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
+import { defineCustomElements } from 'wc3/loader';
+
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -16,4 +18,8 @@ import { AppComponent } from './app.component';
     CUSTOM_ELEMENTS_SCHEMA
   ]
 })
-export class AppModule {}
+export class AppModule {
+  constructor() {
+    defineCustomElements(window);
+  }
+}
