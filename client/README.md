@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 If memory serves, the findings so far have been:
 
-* Angular client + Stencil 1.x WC + Stencil 0.15 WC + core-js es7 reflect = works on Chrome but not on IE
+* Angular client + Stencil 0.15 WC (document-register-element) + Stencil 1.x WC (Polymer) = works on Chrome but not on IE
 * Angular client + Stencil 0.15 WC + Stencil 0.15 WC + core-js es7 reflect = works on IE but not on Chrome
 * Angular client + Stencil 0.15 WC + Stencil 0.15 WC = works on Chrome and IE
 
