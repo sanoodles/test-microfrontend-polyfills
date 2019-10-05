@@ -1,5 +1,5 @@
 {
-  "name": "wc2",
+  "name": "test-microfrontends-wc2",
   "version": "0.0.1",
   "description": "Stencil Component Starter",
   "main": "dist/index.js",

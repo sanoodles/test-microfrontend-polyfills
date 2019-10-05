@@ -23,9 +23,9 @@
     "expect": "^24.9.0",
     "puppeteer": "^1.20.0",
     "rxjs": "~6.4.0",
+    "test-microfrontends-wc1": "0.0.1",
+    "test-microfrontends-wc2": "0.0.1",
     "tslib": "^1.9.0",
-    "wc1": "file:./microfrontends/wc1",
-    "wc2": "file:./microfrontends/wc2",
     "zone.js": "~0.9.1"
   },
   "devDependencies": {
