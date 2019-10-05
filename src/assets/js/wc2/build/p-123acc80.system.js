@@ -1,0 +1,1 @@
+System.register(["./p-c22c31a7.system.js"],(function(){"use strict";var t,e;return{setters:[function(s){t=s.p;e=s.b}],execute:function(){t().then((function(t){return e([["p-wlbugla6.system",[[1,"wc-two",{first:[1],middle:[1],last:[1]}]]]],t)}))}}}));

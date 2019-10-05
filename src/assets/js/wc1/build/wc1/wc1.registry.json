@@ -1,0 +1,15 @@
+{
+  "namespace": "wc1",
+  "fsNamespace": "wc1",
+  "loader": "../wc1.js",
+  "core": "wc1.pkth0y2n.js",
+  "corePolyfilled": "wc1.6bd0ehiy.js",
+  "components": {
+    "wc-one": {
+      "bundleIds": {
+        "$": "givw8wvf"
+      },
+      "encapsulation": "shadow"
+    }
+  }
+}
