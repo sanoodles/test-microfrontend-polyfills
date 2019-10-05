@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
-import { defineCustomElements } from 'wc3/loader';
+import { defineCustomElements } from 'wc1/loader';
 
 import { AppComponent } from './app.component';
 
