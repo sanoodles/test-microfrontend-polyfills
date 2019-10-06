@@ -23,8 +23,7 @@
     "expect": "^24.9.0",
     "puppeteer": "^1.20.0",
     "rxjs": "~6.4.0",
-    "test-microfrontends-wc1": "0.0.1",
-    "test-microfrontends-wc2": "0.0.1",
+    "test-microfrontends-wc3": "0.0.5",
     "tslib": "^1.9.0",
     "zone.js": "~0.9.1"
   },

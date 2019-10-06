@@ -1,0 +1,15 @@
+{
+  "namespace": "wc3",
+  "fsNamespace": "wc3",
+  "loader": "../wc3.js",
+  "core": "wc3.awoketpm.js",
+  "corePolyfilled": "wc3.kjglzv89.js",
+  "components": {
+    "wc-three": {
+      "bundleIds": {
+        "$": "eyrcycy3"
+      },
+      "encapsulation": "shadow"
+    }
+  }
+}

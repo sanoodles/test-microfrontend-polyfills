@@ -1,6 +1,7 @@
 <div class="some-app-component">
-  <h1>I'm going to consume some web components</h1>
-
-  <wc-one first="abc" middle="def" last="ghi"></wc-one>
-  <wc-two first="He" middle="llo"></wc-two>
+  <h1>I'm an Angular app</h1>
+  <p>I included core-js/es7/reflect and now I'm going to consume some web components</p>
+  <wc-one first="loaded via <script>," middle="always works"></wc-one>
+  <wc-two first="loaded via <script>," middle="does not load on old browsers because its Polymer polyfill conflicts with Stencil 0.15's document-register-element"></wc-two>
+  <wc-three first="loaded via defineCustomElements," middle="does not load on modern browsers because Stencil polyfilling logic gets confused if core-js/es7/reflect has been included first"></wc-three>
 </div>
